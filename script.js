@@ -100,7 +100,7 @@ const renderNotifications = (element) => {
                 class="user_image"
             />
             <div class="reason">
-            <strong class="username strong">${notification.user}</strong>
+            <h2 class="username strong">${notification.user}</h2>
             ${notification.reason}
             <b class="strong">${
               notification.strong != null ? notification.strong : ""
