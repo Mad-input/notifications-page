@@ -102,6 +102,11 @@ body {
   width: 100%;
 }
 
+.username {
+  display: inline-block;
+  font-size: 0.9375rem;
+}
+
 .strong {
   color: #000;
   cursor: pointer;
